@@ -8,3 +8,7 @@ def test_01():
 @pytest.mark.smoke
 def test_02():
     assert 1 == 1
+    
+@pytest.mark.smoke
+def test_022():
+    assert 1 == 1
